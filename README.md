@@ -8,7 +8,7 @@ When you enter the website you will be greeted by a brief statement explaining t
 
 ### Wireframes/Mockups
 
-Please find paper and pen wireframe and mockup initial design [here]
+Please find paper and pen wireframe and mockup for initial design [here]
 
 ## Features
 
