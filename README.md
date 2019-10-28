@@ -4,13 +4,9 @@ My project is on a startup Floristry company that has been providing floral arra
 
 ## ux
 
----
-
 When you enter the website you will be greeted by a brief statement explaining the companies vision, there will be a sign up and sign in
 
 ## Features
-
----
 
 ### Existing Features
 
@@ -18,19 +14,11 @@ When you enter the website you will be greeted by a brief statement explaining t
 
 ## Technologies Used
 
----
-
 ## Testing
-
----
 
 ## Deployment
 
----
-
 ## Credits
-
----
 
 ### Content
 
