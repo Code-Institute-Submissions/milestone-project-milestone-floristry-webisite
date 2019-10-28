@@ -6,6 +6,10 @@ My project is on a startup Floristry company that has been providing floral arra
 
 When you enter the website you will be greeted by a brief statement explaining the companies vision, there will be a sign up and sign in
 
+### Wireframes/Mockups
+
+Please find paper and pen wireframe and mockup initial design [here]
+
 ## Features
 
 ### Existing Features
