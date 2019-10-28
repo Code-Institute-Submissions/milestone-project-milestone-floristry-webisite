@@ -1,7 +1,5 @@
 # Milestone Floristry Website
 
----
-
 My project is on a startup Floristry company that has been providing floral arrangements the past two years.The website aims to showcase the florists range of products and services for domestic and commercial customers as well as providing dates for roadshows and exhibitions for live demonstrations.
 
 ## ux
