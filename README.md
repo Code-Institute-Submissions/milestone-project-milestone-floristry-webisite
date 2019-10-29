@@ -24,6 +24,16 @@ Please find paper and pen wireframe for initial design <a href="wireframes/initi
 
 ## Features
 
+At the very top of the page will be a banner containing a subscription sign in / sign up call to action on the right 1-3rd. On the left 2 3rds of the banner will be a looping special offers link.
+
+The landing page will have a background image on loop. The navigation bar will have a home button, gallery button, arrangement button and a contact me button.
+
+Over the top of the background will be a couple of words about the florist and the companies mission statement, with a sign in / sign up call to action.
+
+The testimonial section will contain customer feedback.
+
+The features section will contain pre arranged floral arrangements...
+
 ### Existing Features
 
 ### Features Left to Implent
