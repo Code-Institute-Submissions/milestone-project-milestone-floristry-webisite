@@ -20,7 +20,7 @@ The Website is for anyone that wants floral arrangements for the home special oc
 
 ### Wireframes/Mockups
 
-Please find paper and pen wireframe for initial design <a href="wireframe/initial-wireframe.jpeg">here</a>
+Please find paper and pen wireframe for initial design <a href="wireframes/initial-wireframe.jpeg">here</a>
 
 ## Features
 
