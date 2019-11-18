@@ -1,8 +1,38 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster:400|Oswald:100,200,300,400,500,600,700");
 
 body {
-	font-family: "Lobster", cursive;
 	font-family: "Oswald", sans-serif;
-	margin: 0;
-	padding: 0;
+}
+
+/* Site wide Banner */
+.site-wide-banner {
+	background-color: #eec802;
+	border-color: #eec802;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	justify-content: space-around;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.special-offers {
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+
+.subscribe {
+	padding: 0.5rem 1rem;
+	text-align: right;
+}
+
+/* Nav Bar */
+.bg {
+	background-color: red;
+}
+
+.navbar-dark .navbar-toggler {
+	color: rgba(255, 255, 255, 0.5);
+	border-color: 0;
 }
