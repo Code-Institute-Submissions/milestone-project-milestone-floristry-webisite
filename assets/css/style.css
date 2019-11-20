@@ -6,7 +6,7 @@ body {
 
 /* Site wide Banner */
 .site-wide-banner {
-	background-color: #eec802;
+	background-color: #f8f1f2;
 	border-color: #eec802;
 	top: 0;
 	right: 0;
@@ -21,7 +21,7 @@ body {
 	padding-right: 0;
 	padding-left: 0;
 	max-height: 40px;
-	background-color: #eec802;
+	background-color: #f8f1f2;
 	border-color: #eec802;
 }
 
@@ -40,9 +40,13 @@ body {
 	background-color: #f8cae1;
 }
 
-.navbar-dark .navbar-toggler {
+/*.navbar-dark .navbar-toggler {
 	color: rgba(255, 255, 255, 0.5);
 	border-color: 0;
+}*/
+
+button.navbar-toggler {
+	border: 0;
 }
 
 .navbar-fluid {
@@ -51,12 +55,16 @@ body {
 
 a.navbar-brand-text {
 	font-family: "Bodoni mt", italic;
-	color: #b76e79;
 	font-size: 2em;
+}
+
+a.navbar-brand.navbar-brand-text {
+	color: #b76e79;
 }
 
 .navbar {
 	display: flex;
+	z-index: 1;
 }
 
 /* hero */
@@ -82,7 +90,7 @@ a.navbar-brand-text {
 	position: absolute;
 	height: 100vh;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.4);
 	z-index: -1;
 	right: 0;
 }
@@ -126,4 +134,41 @@ h2.jumbotron-strap-line {
 .copy-rights-text {
 	text-align: center;
 	font-size: 0.7rem;
+}
+
+.social-icons-list-items {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-icons {
+	padding: 0;
+}
+
+.social-icons li a i {
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 25%;
+	font-size: 13px;
+	line-height: 7px;
+	text-align: center;
+	color: #fafafa;
+	background: #8f8f8f;
+	-moz-transition: all 0.35s ease-in-out;
+	-wbekit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+.social-icons li a i:hover {
+	color: #e84610;
+}
+
+.social-icons {
+	align-items: flex-start;
+}
+
+.footer-fluid {
+	padding-top: 20px;
+	background-color: #dae3e5;
 }

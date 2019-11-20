@@ -4,13 +4,19 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link
-			href="//db.onlinewebfonts.com/c/cec8a6834241575dcafba6d7504d64b8?family=Bodoni+MT"
-			rel="stylesheet"
-			type="text/css"
-		/>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+    rel="stylesheet"
+  />
 		<link
 			href="//db.onlinewebfonts.com/c/cec8a6834241575dcafba6d7504d64b8?family=Bodoni+MT"
 			rel="stylesheet"
@@ -35,22 +41,21 @@
 			</div>
 		</div>
 		<div class="container-fluid navbar-fluid">
-			<div class="container">
-				<nav class="navbar navbar-expand-md navbar-dark navbar-bg">
+				<nav class="container navbar navbar-expand-md navbar-dark navbar-bg">
 					<a class="navbar-brand navbar-brand-text" href="#">Milestone Floristry</a>
 					<button
 						class="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
-						data-target="#navbarsExampleDefault"
-						aria-controls="navbarsExampleDefault"
+						data-target="#navbarCollapse"
+						aria-controls="navbarCollapse"
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
 						<span class="navbar-toggler-icon"></span>
 					</button>
 
-					<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+					<div class="collapse navbar-collapse" id="navbarCollapse">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
 								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -59,7 +64,7 @@
 								<a class="nav-link" href="#">Link</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link disabled" href="#">Disabled</a>
+								<a class="nav-link" href="#">Contact</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a
@@ -69,19 +74,19 @@
 									data-toggle="dropdown"
 									aria-haspopup="true"
 									aria-expanded="false"
-									>Dropdown</a
-								>
+									>Ranges</a>
 								<div class="dropdown-menu" aria-labelledby="dropdown01">
-									<a class="dropdown-item" href="#">Action</a>
-									<a class="dropdown-item" href="#">Another action</a>
-									<a class="dropdown-item" href="#">Something else here</a>
+									<a class="dropdown-item" href="#">Seasonal</a>
+									<a class="dropdown-item" href="#">Wedding</a>
+                  <a class="dropdown-item" href="#">Funeral</a>
+                  <a class="dropdown-item" href="#">Gifts</a>
 								</div>
 							</li>
 						</ul>
 					</div>
-				</nav>
-			</div>
-		</div>
+        </nav>
+      </div>
+			
 
 		<main role="main">
 			<!-- Hero -->
@@ -180,21 +185,20 @@
 				<hr />
 			</div>
 			<!-- /container -->
-		</main>
-
-		<footer class="container">
+    </main>
+    <div class="container-fluid footer-fluid">
+		<footer class="container footer-container">
 			<div class="row">
-				<div class="col-md-4 contact">
-					<h3 class="contact-title">Contact</h3>
+				<div class="col-md-4 contact mb-3">
+					<h5 class="contact-title">Contact</h5>
 					<div class="contact-text">
-						+44 (0)750 1093105
-						<p></p>
+						+44 (0)75 0109 3105 <br>
 						<a href="maiilto:enquiry@milestonefloristry.com">enquiry@milestonefloristry.com</a>
 					</div>
 				</div>
 				<div class="col-md-4"></div>
 				<div class="col-md-4">
-					<h3 class="follow-us-title">Follow US</h3>
+					<h5 class="follow-us-title">Follow US</h5>
 					<ul class="social-icons">
 						<li class="social-icons-list-items">
 							<a target="_blank" href="#">
@@ -220,19 +224,10 @@
 					<p>&copy; <span class="footer-brand-text">Milestone Floristry</span> 2019. All Rights Reserved</p>
 				</div>
 			</div>
-		</footer>
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script>
-			window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>');
-		</script>
-		<script
-			src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
-			crossorigin="anonymous"
-		></script>
+    </footer>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
