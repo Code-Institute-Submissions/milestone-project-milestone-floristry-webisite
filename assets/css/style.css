@@ -2,12 +2,38 @@
 
 body {
 	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #fff;
+	color: #696868;
+	font-size: 1.1rem;
+	padding-bottom: 0;
+	min-height: 100vh;
 }
 
+h1.title {
+	font-family: "Bodoni mt", italic;
+}
 /* Site wide Banner */
+
+a.news-links {
+	text-decoration: none;
+	color: #86434d;
+}
+
+a.login-signup-links {
+	text-decoration: none;
+	color: #86434d;
+}
+
+.special-offers-text {
+	text-decoration: none;
+}
+
 .site-wide-banner {
-	background-color: #f8f1f2;
-	border-color: #eec802;
+	background-color: #f1f1f1;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -15,14 +41,14 @@ body {
 	justify-content: space-around;
 	margin-right: 0;
 	margin-left: 0;
+	font-size: 1rem;
 }
 
 .site-wide-banner-container {
 	padding-right: 0;
 	padding-left: 0;
 	max-height: 40px;
-	background-color: #f8f1f2;
-	border-color: #eec802;
+	background-color: #f1f1f1;
 }
 
 .special-offers {
@@ -36,14 +62,41 @@ body {
 }
 
 /* Nav Bar */
+
+.img-responsive-brand {
+	mix-blend-mode: multiply;
+	width: 8vh;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.col-brand-size {
+}
+
 .navbar-bg {
 	background-color: #f8cae1;
 }
 
-/*.navbar-dark .navbar-toggler {
-	color: rgba(255, 255, 255, 0.5);
-	border-color: 0;
-}*/
+a.nav-link {
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: #86434d;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #86434d;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+.navbar-dark {
+	color: #86434d;
+}
 
 button.navbar-toggler {
 	border: 0;
@@ -51,11 +104,13 @@ button.navbar-toggler {
 
 .navbar-fluid {
 	background-color: #f8cae1;
+	border-top-color: #86434d;
+	border-width: 15px;
 }
 
 a.navbar-brand-text {
 	font-family: "Bodoni mt", italic;
-	font-size: 2em;
+	font-size: 1.7rem;
 }
 
 a.navbar-brand.navbar-brand-text {
@@ -67,23 +122,49 @@ a.navbar-brand.navbar-brand-text {
 	z-index: 1;
 }
 
+.dropdown-menu {
+	font-family: "Oswald", sans-serif;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 10rem;
+	padding: 0.5rem 0;
+	margin: 0.125rem 0 0;
+	font-size: 1rem;
+	color: #fff;
+	text-align: left;
+	list-style: none;
+	background-color: rgb(228, 185, 207);
+	background-clip: padding-box;
+	border: 1px solid rgba(73, 55, 153, 0.15);
+	border-radius: 0.25rem;
+}
+
+a.dropdown-item {
+	color: #fff;
+}
 /* hero */
 
 .hero {
 	background: url("../images/assorted-color-of-rose-flowers-714918.jpg");
 	background-position: cover;
-	-webkit-background-size: cover;
+	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover;*/
 	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	z-index: -3;
 	right: 0;
+	border-radius: 0 0 85% 85% / 8%;
+	overflow: hidden;
 }
 
 .opaque-overlay {
@@ -93,39 +174,72 @@ a.navbar-brand.navbar-brand-text {
 	background-color: rgba(0, 0, 0, 0.4);
 	z-index: -1;
 	right: 0;
+	border-radius: 0 0 85% 85% / 8%;
 }
 
 /* Jumbotron */
 
 .jumbotron {
 	padding: 2rem 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	background-color: #e9ecef00;
 	border-radius: 0.3rem;
 	height: 100vh;
+	margin-top: 115px;
 }
 
-.jumbotron-header {
-	font-family: "Lobster", cursive;
-	font-size: 4.5rem;
+h1.jumbotron-header {
+	font-family: "Bodoni mt", italic;
+	font-size: 10vh;
 	font-weight: 300;
-	line-height: 1.2;
 	justify-content: center;
 	text-align: center;
 	color: white;
+	margin-bottom: 15%;
+}
+
+.brand-text {
+	font-family: "Bodoni mt", italic;
 }
 
 h2.jumbotron-strap-line {
 	color: white;
+	font-weight: 200;
 	text-align: center;
+	margin-bottom: 15%;
 }
 
-.jumbotron-text {
+p.jumbotron-text {
 	color: white;
 	text-align: center;
+	font-weight: 400;
+}
+
+h2.ranges-title {
+	font-family: "Bodoni mt", italic;
+	color: #123b1a;
+}
+
+span.brand--text {
+	font-family: "bodoni mt", italic;
+	color: #86434d;
+	font-size: 1.55rem;
+	font-weight: normal;
+	line-height: normal;
+}
+.more-info {
+	color: #86434d;
+	font-size: 1.25rem;
+	font-weight: 300;
 }
 
 /* footer */
+
+.follow-us-title .footer-fluid {
+	position: absolute;
+	bottom: 0;
+}
+
 .footer-brand-text {
 	font-family: "Bodoni mt", italic;
 	font-size: 1.3em;
@@ -134,6 +248,7 @@ h2.jumbotron-strap-line {
 .copy-rights-text {
 	text-align: center;
 	font-size: 0.7rem;
+	margin: 0;
 }
 
 .social-icons-list-items {
@@ -154,7 +269,7 @@ h2.jumbotron-strap-line {
 	line-height: 7px;
 	text-align: center;
 	color: #fafafa;
-	background: #8f8f8f;
+	background: #696868;
 	-moz-transition: all 0.35s ease-in-out;
 	-wbekit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
@@ -170,5 +285,121 @@ h2.jumbotron-strap-line {
 
 .footer-fluid {
 	padding-top: 20px;
-	background-color: #dae3e5;
+	background-image: linear-gradient(#ffffff, #dae3e5, #dae3e5);
+	margin-top: 20px;
+}
+
+a.email-link {
+	text-decoration: none;
+	color: #696868;
+}
+
+h5.footer-contact-title,
+h5.follow-us-title {
+	color: #123b1a;
+}
+
+.contact-text {
+	color: #696868;
+}
+
+/* contact HTML */
+
+.email-container {
+	height: 100%;
+}
+
+/* jumbotron */
+
+.email-jumbotron {
+	height: 30vh;
+	background-image: url(../images/sunflowers-712098.jpg);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.contact-title {
+	color: white;
+}
+
+.jumbotron-contact-text {
+	color: white;
+}
+
+/* Funeral HTML */
+
+.funerals-title {
+	color: white;
+}
+
+.jumbotron-funerals-text {
+	color: white;
+}
+
+.funeral-images {
+	width: 100%;
+	padding: 5px 0;
+}
+
+/* About HTML */
+
+.container-fluid i {
+	color: red;
+	margin-bottom: 20px;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.about-jumbotron {
+	height: 30vh;
+	background-image: url(../images/sunflowers-712098.jpg);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.about-title {
+	color: white;
+}
+
+.jumbotron-about-text {
+	color: white;
+}
+
+.about-img {
+	width: 100%;
+	padding: 1rem;
+}
+
+.about-image-container {
+	display: flex;
+	justify-content: space-around;
+}
+/* News & Tips HTML */
+
+.news-tips-jumbotron {
+	height: 30vh;
+	background-image: url(../images/sunflowers-712098.jpg);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.news-tips-title {
+	color: white;
+}
+
+.jumbotron-news-tips-text {
+	color: white;
+}
+
+a.btn .btn-outline-success .buy-button {
+	width: 80.98px;
 }
