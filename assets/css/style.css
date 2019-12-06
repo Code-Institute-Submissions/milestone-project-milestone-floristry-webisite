@@ -2,13 +2,13 @@
 
 body {
 	font-family: "Oswald", sans-serif;
-	font-weight: normal;
+	font-weight: 300;
 	margin: 0;
 	padding: 0;
 	position: relative;
 	background-color: #fff;
 	color: #696868;
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 	padding-bottom: 0;
 	min-height: 100vh;
 }
@@ -143,8 +143,20 @@ a.navbar-brand.navbar-brand-text {
 	border-radius: 0.25rem;
 }
 
-a.dropdown-item {
+a.dropdown-item.active {
+	background-color: #b76e79;
+}
+
+a.dropdown-item.active:hover {
 	color: #fff;
+}
+
+a.dropdown-item:hover {
+	color: #b76e79;
+}
+
+a.dropdown-item {
+	color: #86434d;
 }
 /* hero */
 
@@ -179,9 +191,13 @@ a.dropdown-item {
 
 /* Jumbotron */
 
+h1.global-page-titles {
+	color: #86434d;
+}
+
 .jumbotron {
 	padding: 2rem 1rem;
-	margin-bottom: 3rem;
+	margin-bottom: 1.25rem;
 	background-color: #e9ecef00;
 	border-radius: 0.3rem;
 	height: 100vh;
@@ -217,7 +233,7 @@ p.jumbotron-text {
 
 h2.ranges-title {
 	font-family: "Bodoni mt", italic;
-	color: #123b1a;
+	color: #0ca02a;
 }
 
 span.brand--text {
@@ -261,6 +277,7 @@ span.brand--text {
 }
 
 .social-icons li a i {
+	margin-bottom: 0;
 	width: 32px;
 	height: 32px;
 	padding: 12px 0;
@@ -301,6 +318,7 @@ h5.follow-us-title {
 
 .contact-text {
 	color: #696868;
+	font-size: 0.8rem;
 }
 
 /* contact HTML */
@@ -393,11 +411,9 @@ h5.follow-us-title {
 }
 
 .news-tips-title {
-	color: white;
 }
 
 .jumbotron-news-tips-text {
-	color: white;
 }
 
 a.btn .btn-outline-success .buy-button {
