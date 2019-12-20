@@ -34,12 +34,13 @@ The landing page will have a background image on loop. The navigation bar will h
 
 ## Technologies Used
 
-Some the tech used includes:
--HTML, CSS and Javascript
---Base languages used to create website
--Bootstrap
---We use Bootstrap to give our project a simple, responsive layout
-JQuery
+Tech used includes:
+
+- HTML, CSS and Javascript
+  - Base languages used to create website
+- Bootstrap
+  -- We use Bootstrap to give our project a simple, responsive layout
+  JQuery
 
 ## Testing
 
