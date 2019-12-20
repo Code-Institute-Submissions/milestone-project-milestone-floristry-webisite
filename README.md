@@ -22,11 +22,17 @@ Please find paper and pen wireframe for initial design <a href="wireframes/initi
 
 ## Features
 
+elegantic and friendly front page
+
 #### Index
 
 At the very top of all pages will be a banner containing a link to login / sign up call to action on the right 1-3rd. On the left 2 3rds of the banner will be a looping titles form acrticls taken form news and tips link.
 
-The landing page will have a background image on loop. The navigation bar will have a home button, about button, ranges button with a dropdown menu of bouquet sections, and a contact me button.
+The landing page will have a background image on loop. The navigation bar will have a home button, about button, ranges button with a dropdown menu of the bouquet sections, and a contact me button.
+
+below will be the mission statement.
+
+The next section will have a secletions of bouquets from the goup section.
 
 ### Existing Features
 
@@ -39,33 +45,31 @@ Tech used includes:
 - HTML, CSS and Javascript
   - Base languages used to create website
 - Bootstrap
-  -- We use Bootstrap to give our project a simple, responsive layout
-  JQuery
+  - Used Bootstrap to give the project a simple, responsive layout
 
 ## Testing
 
-Prototype code was written and tested using jasmine
 All code used on the site has been tested to ensure everything is working as expected
 Site viewed and tested in the following browsers:
 Google Chrome
-Opera
-Microsoft Edge
-Mozilla Firefox
-Contributing
+Safari
 
 ## Deployment
+
+--
 
 ## Credits
 
 ### Content
 
+- The majority of the text was taken from all the pages of milestonefloristry.com and the remaining text is Lorem.
+
 ### Media
 
-The photos used in this site were obtained from Pixabay
-The video used on this site belongs to Nat Geo Wild channel on youtube
+- The photos used in this site were obtained from Pixels
+  and water marked photos provided by client.
 
 ### Acknowledgements
 
--The information used to create this site was from a number of sources
---Wikipedia webpage on Hippos and Pygmy Hippos
-The African Wildlife Foundation website
+- The information used to create this site was from a number of sources
+- W3schools
