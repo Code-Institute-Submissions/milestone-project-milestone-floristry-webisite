@@ -22,15 +22,11 @@ Please find paper and pen wireframe for initial design <a href="wireframes/initi
 
 ## Features
 
-At the very top of the page will be a banner containing a subscription sign in / sign up call to action on the right 1-3rd. On the left 2 3rds of the banner will be a looping special offers link.
+#### Index
 
-The landing page will have a background image on loop. The navigation bar will have a home button, gallery button, arrangement button and a contact me button.
+At the very top of all pages will be a banner containing a link to login / sign up call to action on the right 1-3rd. On the left 2 3rds of the banner will be a looping titles form acrticls taken form news and tips link.
 
-Over the top of the background will be a couple of words about the florist and the companies mission statement, with a sign in / sign up call to action.
-
-The testimonial section will contain customer feedback.
-
-The features section will contain pre arranged floral arrangements...
+The landing page will have a background image on loop. The navigation bar will have a home button, about button, ranges button with a dropdown menu of bouquet sections, and a contact me button.
 
 ### Existing Features
 
@@ -38,7 +34,23 @@ The features section will contain pre arranged floral arrangements...
 
 ## Technologies Used
 
+Some the tech used includes:
+-HTML, CSS and Javascript
+--Base languages used to create website
+-Bootstrap
+--We use Bootstrap to give our project a simple, responsive layout
+JQuery
+
 ## Testing
+
+Prototype code was written and tested using jasmine
+All code used on the site has been tested to ensure everything is working as expected
+Site viewed and tested in the following browsers:
+Google Chrome
+Opera
+Microsoft Edge
+Mozilla Firefox
+Contributing
 
 ## Deployment
 
@@ -48,4 +60,11 @@ The features section will contain pre arranged floral arrangements...
 
 ### Media
 
+The photos used in this site were obtained from Pixabay
+The video used on this site belongs to Nat Geo Wild channel on youtube
+
 ### Acknowledgements
+
+-The information used to create this site was from a number of sources
+--Wikipedia webpage on Hippos and Pygmy Hippos
+The African Wildlife Foundation website
