@@ -20,19 +20,37 @@ The Website is for anyone that wants floral arrangements for the home special oc
 
 Please find paper and pen wireframe for initial design <a href="wireframes/initial-wireframe.jpeg">here</a>
 
+Please find paper and pen wireframe for updated design <a href="wireframes/Updated Wireframe-home.jpg">here</a>
+
 ## Features
 
-elegantic and friendly front page
+### Global features
 
-#### Index
+On all pages, the site-wide banner will appear at the top of all pages. It has it's divided into two parts, the left will display a strapline along with a link back to that document. On the right has the link to the sign-in page and sign up page. Below the site-wide banner will be the navigation bar which has the same state and position on all pages. The layout of the navbar will be responsive depending on the user's device size and orientation.
 
-At the very top of all pages will be a banner containing a link to login / sign up call to action on the right 1-3rd. On the left 2 3rds of the banner will be a looping titles form acrticls taken form news and tips link.
+### Index features
 
-The landing page will have a background image on loop. The navigation bar will have a home button, about button, ranges button with a dropdown menu of the bouquet sections, and a contact me button.
+The index page design is a sleek, compelling landing page that offers immediate access to all the categories of bouquets. The index page also provides short clips from articles taken from the news and tips page.
 
-below will be the mission statement.
+### About features
 
-The next section will have a secletions of bouquets from the goup section.
+The about page will profile the owner's journey what inspired and encouraged her to start along this path.
+
+### Ranges features
+
+Ranges are broken down into four pages seasonal, weddings, funerals and gifts. All the above pages will have an image gallery of pre-arranged bouquets that the user can view the bouquet selected in more detail along with additional images of the bouquet form different positions. The user also has the option to see similar bouquets based on price flowers and seasons.
+
+### News and Tips features
+
+The news and tips page will display interesting flower related news and stories as well as tips and hacks on flower care.
+
+### Contact features
+
+The contact page will have a name email and comment input and just below will have a submit button.
+
+### Future implentations
+
+In future, the owner would like the user to be able to buy and track their bouquet.
 
 ### Existing Features
 
@@ -40,23 +58,23 @@ The next section will have a secletions of bouquets from the goup section.
 
 ## Technologies Used
 
-Tech used includes:
-
-- HTML, CSS and Javascript
-  - Base languages used to create website
-- Bootstrap
-  - Used Bootstrap to give the project a simple, responsive layout
+- HTML
+- CSS3
+- Bootstrap 4
+- Fontawesome
+-
 
 ## Testing
 
-All code used on the site has been tested to ensure everything is working as expected
+All code used on the site has been tested across multiple devices via DevTool option in Chrome. It has also been tested on multiple browsers for compatability and responsivness to ensure everything is working as expected
 Site viewed and tested in the following browsers:
 Google Chrome
 Safari
+Internet Explore
 
 ## Deployment
 
---
+This site is hoseted using GitHub Pages, deployed directly from the master branch.
 
 ## Credits
 
